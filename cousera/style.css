@@ -82,3 +82,26 @@ padding-right: 15px;
 button:hover {
 cursor: pointer;
 }
+
+.b {
+border-top: solid;
+background-color: white;
+border-top-width: 20px;
+border-radius: 10px;
+width: 600px;
+margin-top: 25px;
+margin-bottom: 25px;
+display: flex;
+}
+
+.temperature {
+border-top-color: green;
+}
+
+.weight {
+border-top-color: coral;
+}
+
+.distance {
+border-top-color: cyan;
+}
