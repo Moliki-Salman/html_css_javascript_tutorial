@@ -46,3 +46,39 @@ font-weight: bolder;
 background-color: purple;
 text-decoration: underline
 }
+
+/* Container for all the three conversion calculator sections*/
+#all-conversion-sections {
+/* this  made the items to move/position to the middle and line vertically */
+display: grid;
+justify-content: center;
+}
+
+figure {
+float: left;
+justify-self:auto;
+width: 200px;
+}
+
+img {
+width: 200px;
+}
+
+figcaption {
+color: black;
+font-size: 17px;
+text-align: center;
+}
+
+button {
+font-size: 20px;
+border: transparent;
+width: fit-content;
+background-color: rgb(118, 196, 118);
+padding-left: 15px;
+padding-right: 15px;
+}
+
+button:hover {
+cursor: pointer;
+}
