@@ -28,3 +28,21 @@ padding-left: 2cm;
 float: right;
 padding-right: 1cm;
 }
+
+/* Navigation Bar Buttons */
+.topmenu {
+color: rgb(187, 185, 185);
+background-color: rgb(47, 3, 47);
+margin: 10px;
+padding: 10px;
+border-radius: 2mm;
+font-size: 20px;
+text-decoration: none;
+}
+
+.topmenu:hover {
+color: white;
+font-weight: bolder;
+background-color: purple;
+text-decoration: underline
+}
