@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(3, 3, 26);
+}
+/* #header-section {
+
+margin-left: -1cm;
+     margin-right: -1cm;
+padding-bottom: 2cm;
+
+} */
+header {
+  margin-top: 0cm;
+  color: white;
+  float: left;
+}
+
+nav{
+  float: right;
+  margin-top: 1cm;
+}
+.nav-buttons {
+          font-size: 13px;
+          font-weight: bold;
+padding: 10px;
+margin: 10px;
+border-radius: 3mm;
+     }
+ .nav-buttons:hover {
+font: bolder;
+font-size: 14px;
+font-weight: bolder;
+background-color: orange;
+text-decoration: underline;
+cursor: pointer;
+ }
